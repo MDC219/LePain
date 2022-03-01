@@ -1,0 +1,33 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Montserrat:ital,wght@0,400;1,700&family=Praise&display=swap");
+/* import link and font family */
+body {
+  font-family: "Praise", cursive;
+}
+#showcase {
+  /* bgi */
+  background-image: url("Images2/header.jpg");
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+/* Media Queries */
+@media (min-width: 932px) {
+  .card-text {
+    height: 110px;
+  }
+}
+@media (min-width: 1200px) {
+  .card-text {
+    height: 90px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .card-text {
+    height: 70px;
+  }
+}
