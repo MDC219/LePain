@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 /* Media Queries */
-@media (min-width: 932px) {
+@media (min-width: 950px) {
   .card-text {
     height: 110px;
   }
